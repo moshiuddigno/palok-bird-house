@@ -1,0 +1,680 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>পালক বার্ড হাউস</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="ঢাকার মিরপুরে খাঁচায় জন্ম নেওয়া সুস্থ-সবল শখের পাখি। ছবি দেখুন, পছন্দ করুন, WhatsApp-এ অর্ডার দিন।">
+<meta property="og:title" content="পালক বার্ড হাউস">
+<meta property="og:description" content="বাজরিগার, লাভবার্ড, ককাটিয়েল, ফিঞ্চ, কনিউর — ছবি দেখে WhatsApp-এ অর্ডার দিন।">
+<meta property="og:image" content="img/hero.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600&family=Noto+Serif+Bengali:wght@500;600;700;800&display=swap">
+<style>
+html{-webkit-text-size-adjust:100%}body{margin:0}
+
+/* Layout: photo-led editorial catalog. Forest-green bands frame the page; photographs carry all the color; one WhatsApp-green accent for ordering. */
+:root{
+  --bg:#FAFAF7; --fg:#18201C; --muted:#5A6660; --line:#E2E5DE; --soft:#EFF2EC;
+  --forest:#12342B; --forest-ink:#F3F5F0; --forest-muted:#A9BDB4;
+  --wa:#25D366; --wa-ink:#05301A; --wa-text:#0B7A3B;
+  --sold:#2A302D; --sold-ink:#F3F5F0; --soon:#F0C24B; --soon-ink:#3A2C00;
+  --serif:"Noto Serif Bengali","Noto Serif",Georgia,serif;
+  --sans:"Hind Siliguri","Noto Sans Bengali",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --gut:max(16px, env(safe-area-inset-left, 0px));
+  --gutr:max(16px, env(safe-area-inset-right, 0px));
+  --max:1240px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0C1814; --fg:#E9EEE9; --muted:#9BAAA2; --line:#21322B; --soft:#13231D;
+  --forest:#0A2019; --forest-ink:#EEF3EF; --forest-muted:#93AA9F;
+  --wa-text:#4FE08E; --sold:#E9EEE9; --sold-ink:#0C1814; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0C1814; --fg:#E9EEE9; --muted:#9BAAA2; --line:#21322B; --soft:#13231D;
+  --forest:#0A2019; --forest-ink:#EEF3EF; --forest-muted:#93AA9F;
+  --wa-text:#4FE08E; --sold:#E9EEE9; --sold-ink:#0C1814; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--forest)}
+a{color:inherit}
+img{display:block;max-width:100%}
+h1,h2,h3{font-family:var(--serif);font-weight:700;line-height:1.25;margin:0;text-wrap:balance}
+p{margin:0}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--wa);outline-offset:3px;border-radius:2px}
+.wrap{max-width:var(--max);margin:0 auto;padding-left:var(--gut);padding-right:var(--gutr)}
+.num{font-variant-numeric:tabular-nums}
+.eyebrow{font-size:.8rem;font-weight:600;letter-spacing:.06em;color:var(--muted)}
+
+/* demo strip + header */
+.demo{background:var(--soon);color:var(--soon-ink);font-size:.86rem;text-align:center;padding-block:6px}
+.demo .wrap{display:block}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--forest);color:var(--forest-ink)}
+header.top .wrap{display:flex;align-items:center;gap:24px;padding-block:12px;flex-wrap:wrap}
+.logo{display:flex;align-items:baseline;gap:8px;text-decoration:none;margin-right:auto}
+.logo b{font-family:var(--serif);font-size:1.6rem;font-weight:800;letter-spacing:.01em}
+.logo span{font-size:.85rem;color:var(--forest-muted)}
+nav.main{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+nav.main::-webkit-scrollbar{display:none}
+nav.main a{text-decoration:none;padding:10px 12px;min-height:44px;display:flex;align-items:center;white-space:nowrap;border-radius:6px;color:var(--forest-muted);font-weight:500}
+nav.main a:hover{color:var(--forest-ink)}
+nav.main a[aria-current="page"]{color:var(--forest-ink);box-shadow:inset 0 -2px 0 var(--wa)}
+@media (max-width:720px){
+  header.top .wrap{gap:4px;padding-block:8px 0}
+  nav.main{width:100%;margin-inline:-8px}
+}
+
+/* WhatsApp buttons */
+.wa-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:var(--wa);color:var(--wa-ink);text-decoration:none;font-weight:600;border-radius:999px;padding:12px 22px;min-height:50px;border:0;cursor:pointer;transition:transform .15s ease}
+.wa-btn:hover{transform:translateY(-1px)}
+.wa-btn svg{width:22px;height:22px;flex:none}
+.wa-float{position:fixed;z-index:40;right:calc(18px + env(safe-area-inset-right,0px));bottom:calc(18px + env(safe-area-inset-bottom,0px));box-shadow:0 6px 20px rgba(0,0,0,.22)}
+@media (max-width:720px){
+  .wa-float{left:calc(12px + env(safe-area-inset-left,0px));right:calc(12px + env(safe-area-inset-right,0px));bottom:calc(12px + env(safe-area-inset-bottom,0px))}
+  main{padding-bottom:84px}
+}
+
+/* hero */
+.hero{position:relative;background:var(--forest);color:#fff;overflow:hidden}
+.hero img{width:100%;height:min(78vh,640px);min-height:440px;object-fit:cover;object-position:center 40%}
+.hero .scrim{position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,24,19,.78) 0%,rgba(8,24,19,.35) 48%,rgba(8,24,19,0) 75%)}
+.hero .copy{position:absolute;inset:auto 0 0 0;padding-block:48px}
+.hero .copy .wrap{display:flex;flex-direction:column;align-items:flex-start;gap:16px}
+.hero .kicker{font-size:.95rem;color:#CFE3D8;letter-spacing:.03em}
+.hero h1{font-size:clamp(2.1rem,5.2vw,4rem);font-weight:800;max-width:13ch;color:#fff}
+.hero p.lede{max-width:34ch;color:#E3EEE8;font-size:1.05rem}
+.hero .ghost{color:#fff;text-decoration:underline;text-underline-offset:4px;padding:12px 4px;min-height:48px;display:inline-flex;align-items:center}
+.hero .ctas{display:flex;gap:16px;flex-wrap:wrap;align-items:center}
+@media (max-width:720px){
+  .hero img{height:72vh;min-height:420px;object-position:62% center}
+  .hero .scrim{background:linear-gradient(0deg,rgba(8,24,19,.86) 0%,rgba(8,24,19,.45) 45%,rgba(8,24,19,0) 70%)}
+  .hero .copy{padding-block:28px}
+}
+.credit-tag{position:absolute;right:8px;top:8px;font-size:.7rem;color:rgba(255,255,255,.75);background:rgba(0,0,0,.35);padding:2px 6px;border-radius:3px}
+
+/* sections */
+section.block{padding-block:56px}
+.sec-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:24px;flex-wrap:wrap}
+.sec-head h2{font-size:clamp(1.55rem,3vw,2.2rem)}
+.sec-head a{font-weight:600;color:var(--wa-text);text-decoration:none;padding:8px 0}
+.sec-head a:hover{text-decoration:underline}
+
+/* catalog grid: regular cards 4:5, featured cards span two columns at 8:5 so rows stay level */
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:36px 20px;grid-auto-flow:dense}
+@media (max-width:960px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:640px){.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 12px}}
+.card{text-decoration:none;display:flex;flex-direction:column;gap:10px;min-width:0}
+.card .ph{position:relative;aspect-ratio:4/5;overflow:hidden;background:var(--soft);border-radius:4px;max-width:100%}
+.card.big{grid-column:span 2}
+.card.big .ph{aspect-ratio:8/5}
+.card .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .45s ease,transform .6s ease}
+.card .ph img.ok{opacity:1}
+.card .ph img.alt{opacity:0}
+@media (hover:hover){
+  .card:hover .ph img.alt.ok{opacity:1}
+  .card:hover .ph img{transform:scale(1.02)}
+}
+.card .meta{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.card h3{font-size:1.08rem;font-weight:600;font-family:var(--serif)}
+.card.big h3{font-size:1.35rem}
+.card .sub{font-size:.88rem;color:var(--muted)}
+.card .price{font-weight:600;white-space:nowrap}
+.card .price.ask{font-weight:500;color:var(--muted);font-size:.9rem}
+.card.is-sold .ph img{filter:grayscale(.65)}
+@media (max-width:640px){
+  .card .meta{flex-direction:column;gap:0}
+  .card h3{font-size:1rem}
+}
+.badge{position:absolute;left:10px;top:10px;z-index:2;font-size:.76rem;font-weight:600;padding:3px 9px;border-radius:3px;letter-spacing:.02em}
+.badge.available{background:var(--wa);color:var(--wa-ink)}
+.badge.sold{background:var(--sold);color:var(--sold-ink)}
+.badge.coming{background:var(--soon);color:var(--soon-ink)}
+.code{font-size:.78rem;color:var(--muted);font-variant-numeric:tabular-nums;letter-spacing:.04em}
+
+/* categories strip */
+.cats{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(150px,1fr);gap:14px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory}
+.cat{text-decoration:none;scroll-snap-align:start;display:flex;flex-direction:column;gap:8px}
+.cat .ph{aspect-ratio:3/4;overflow:hidden;border-radius:4px;background:var(--soft)}
+.cat .ph img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.cat:hover .ph img{transform:scale(1.04)}
+.cat b{font-family:var(--serif);font-weight:600}
+.cat small{color:var(--muted);font-size:.85rem;display:block;margin-top:-6px}
+
+/* how to order: real 3-step sequence */
+.band{background:var(--forest);color:var(--forest-ink)}
+.band .sec-head h2{color:var(--forest-ink)}
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;list-style:none;margin:0;padding:0;counter-reset:s}
+.steps li{counter-increment:s;display:flex;flex-direction:column;gap:6px;border-top:1px solid rgba(255,255,255,.18);padding-top:18px}
+.steps li::before{content:counter(s,bengali);font-family:var(--serif);font-size:2.4rem;font-weight:700;color:var(--wa);line-height:1}
+.steps h3{font-size:1.2rem;color:var(--forest-ink)}
+.steps p{color:var(--forest-muted)}
+@media (max-width:720px){.steps{grid-template-columns:1fr;gap:20px}}
+
+.promise{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.promise div{display:flex;flex-direction:column;gap:4px;min-width:0}
+.promise b{font-family:var(--serif);font-size:1.08rem}
+.promise p{color:var(--muted);font-size:.95rem}
+@media (max-width:860px){.promise{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:460px){.promise{grid-template-columns:1fr}}
+
+/* shop toolbar */
+.pagehead{padding-block:40px 8px}
+.pagehead h1{font-size:clamp(1.9rem,4vw,2.8rem)}
+.pagehead p{color:var(--muted);margin-top:6px;max-width:60ch}
+.toolbar{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--hh,64px));z-index:20;background:var(--bg);padding-block:14px;border-bottom:1px solid var(--line);margin-bottom:28px}
+.toolbar .row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.search{flex:1 1 260px;min-width:0;position:relative}
+.search input{width:100%;font:inherit;font-size:16px;padding:12px 14px 12px 42px;min-height:48px;border-radius:999px;border:1px solid var(--line);background:var(--soft);color:var(--fg)}
+.search input:focus{outline:none;border-color:var(--wa)}
+.search svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);width:18px;height:18px;color:var(--muted)}
+.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin-top:12px;padding-bottom:2px}
+.chips::-webkit-scrollbar{display:none}
+.chip{border:1px solid var(--line);background:transparent;padding:8px 16px;min-height:44px;border-radius:999px;white-space:nowrap;cursor:pointer;font-weight:500}
+.chip[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.toggle{display:flex;align-items:center;gap:8px;cursor:pointer;min-height:48px;white-space:nowrap}
+.toggle input{width:20px;height:20px;accent-color:var(--wa)}
+.count{color:var(--muted);font-size:.92rem;margin-bottom:16px}
+.empty{padding:48px 0;color:var(--muted);text-align:center}
+
+/* detail */
+.crumbs{font-size:.9rem;color:var(--muted);padding-block:20px 12px}
+.crumbs a{text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+.detail{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:48px;align-items:start}
+@media (max-width:860px){.detail{grid-template-columns:1fr;gap:24px}}
+.gallery{position:relative;min-width:0}
+.slides{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;border-radius:4px;background:var(--soft)}
+.slides::-webkit-scrollbar{display:none}
+.slides figure{flex:0 0 100%;margin:0;scroll-snap-align:center;aspect-ratio:4/5;max-height:78vh;position:relative}
+.slides img{width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .45s}
+.slides img.ok{opacity:1}
+.thumbs{display:flex;gap:10px;margin-top:12px}
+.thumbs button{border:2px solid transparent;padding:0;border-radius:4px;overflow:hidden;width:72px;height:72px;cursor:pointer;background:var(--soft)}
+.thumbs button[aria-current="true"]{border-color:var(--wa)}
+.thumbs img{width:100%;height:100%;object-fit:cover}
+.dots{position:absolute;left:0;right:0;bottom:12px;display:none;justify-content:center;gap:6px}
+.dots span{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.55)}
+.dots span.on{background:#fff}
+@media (max-width:860px){.thumbs{display:none}.dots{display:flex}.slides{margin-inline:calc(-1 * var(--gut)) calc(-1 * var(--gutr));border-radius:0}.slides figure{max-height:none}}
+.info{display:flex;flex-direction:column;gap:18px;position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--hh,64px) + 20px)}
+@media (max-width:860px){.info{position:static}}
+.info h1{font-size:clamp(1.9rem,3.6vw,2.6rem)}
+.info .latin{font-style:italic;color:var(--muted);margin-top:4px}
+.info .pricebig{font-family:var(--serif);font-size:2rem;font-weight:700}
+.info .pricebig small{font-family:var(--sans);font-size:.95rem;font-weight:400;color:var(--muted);margin-left:6px}
+.status-line{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.status-line .badge{position:static}
+.facts{display:grid;grid-template-columns:auto 1fr;gap:10px 24px;margin:0;padding:16px 0;border-block:1px solid var(--line)}
+.facts dt{color:var(--muted)}
+.facts dd{margin:0;font-weight:500}
+.info .wa-btn{width:100%;font-size:1.05rem}
+.callrow{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:.95rem;color:var(--muted)}
+.copy{border:1px solid var(--line);background:transparent;border-radius:999px;padding:6px 14px;min-height:40px;cursor:pointer;font-size:.88rem}
+.note{font-size:.92rem;color:var(--muted)}
+.note a{color:var(--wa-text)}
+
+/* prose pages */
+.prose{max-width:68ch}
+.prose h2{font-size:1.5rem;margin:36px 0 10px}
+.prose p,.prose li{color:var(--fg)}
+.prose p+p{margin-top:12px}
+.prose ul{padding-left:1.2em;margin:8px 0}
+.prose li{margin:6px 0}
+.faq{max-width:760px;border-top:1px solid var(--line)}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{cursor:pointer;list-style:none;padding:18px 40px 18px 0;font-family:var(--serif);font-weight:600;font-size:1.12rem;position:relative;min-height:48px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:6px;top:14px;font-size:1.6rem;font-weight:400;color:var(--muted);font-family:var(--sans)}
+.faq details[open] summary::after{content:"−"}
+.faq .ans{padding:0 0 20px;color:var(--fg);max-width:65ch}
+.two{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:48px;align-items:start}
+@media (max-width:860px){.two{grid-template-columns:1fr;gap:28px}}
+.contact-list{display:flex;flex-direction:column;gap:0;border-top:1px solid var(--line)}
+.contact-list div{display:flex;justify-content:space-between;gap:12px;padding:14px 0;border-bottom:1px solid var(--line);flex-wrap:wrap;align-items:center}
+.contact-list span{color:var(--muted)}
+.contact-list b{font-weight:600;user-select:all}
+.mapcard{aspect-ratio:4/3;border-radius:4px;overflow:hidden;position:relative;background:var(--soft)}
+.mapcard img{width:100%;height:100%;object-fit:cover}
+.table-wrap{overflow-x:auto}
+table.rates{border-collapse:collapse;width:100%;min-width:420px;font-variant-numeric:tabular-nums}
+.rates th,.rates td{text-align:left;padding:12px 14px 12px 0;border-bottom:1px solid var(--line)}
+.rates th{font-size:.85rem;color:var(--muted);font-weight:600}
+.callout{background:var(--soft);border-left:3px solid var(--soon);padding:14px 18px;border-radius:0 4px 4px 0;margin:20px 0}
+
+/* footer */
+footer{background:var(--forest);color:var(--forest-muted);margin-top:40px}
+footer .wrap{padding-block:48px 32px;display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:32px}
+footer b.f{font-family:var(--serif);font-size:1.5rem;color:var(--forest-ink);display:block;margin-bottom:6px}
+footer h4{margin:0 0 10px;color:var(--forest-ink);font-size:.95rem}
+footer a{text-decoration:none;display:block;padding:5px 0}
+footer a:hover{color:var(--forest-ink)}
+footer .legal{grid-column:1/-1;border-top:1px solid rgba(255,255,255,.12);padding-top:18px;font-size:.85rem}
+@media (max-width:720px){footer .wrap{grid-template-columns:1fr}}
+.credits li{font-size:.9rem;margin:4px 0;color:var(--muted)}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+
+</head>
+<body>
+<div class="demo"><div class="wrap">ডেমো সাইট — দোকানের নাম, নম্বর, ঠিকানা ও দাম সব কাল্পনিক</div></div>
+<header class="top" id="top">
+  <div class="wrap">
+    <a class="logo" href="#home" aria-label="পালক বার্ড হাউস, হোম"><b>পালক</b><span>বার্ড হাউস · মিরপুর</span></a>
+    <nav class="main" aria-label="প্রধান মেনু">
+      <a href="#home" data-nav="home">হোম</a>
+      <a href="#shop" data-nav="shop">সব পাখি</a>
+      <a href="#care" data-nav="care">যত্ন ও পরামর্শ</a>
+      <a href="#delivery" data-nav="delivery">ডেলিভারি ও নিয়ম</a>
+      <a href="#about" data-nav="about">আমাদের কথা</a>
+    </nav>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<a class="wa-btn wa-float" id="waFloat" href="#" target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1.1 2.7.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+  <span id="waFloatText">WhatsApp-এ মেসেজ দিন</span>
+</a>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <b class="f">পালক বার্ড হাউস</b>
+      <p>খাঁচায় জন্ম ও বড় হওয়া শখের পাখি, মিরপুর থেকে। ২০১৮ সাল থেকে।</p>
+      <p style="margin-top:10px">বাড়ি ১২, রোড ৪, মিরপুর-২, ঢাকা ১২১৬</p>
+    </div>
+    <div>
+      <h4>পাতা</h4>
+      <a href="#shop">সব পাখি</a><a href="#care">যত্ন ও পরামর্শ</a><a href="#delivery">ডেলিভারি ও নিয়ম</a><a href="#about">আমাদের কথা ও যোগাযোগ</a><a href="#credits">ছবির কৃতিত্ব</a>
+    </div>
+    <div>
+      <h4>যোগাযোগ</h4>
+      <p>WhatsApp ও ফোন: <span class="num">০১৭১১-০০০০০০</span></p>
+      <p>Facebook: /palokbirdhouse</p>
+      <p>খোলা: শনি–বৃহস্পতি, বিকেল ৪টা–রাত ৯টা</p>
+    </div>
+    <p class="legal">আমরা শুধু খাঁচায় প্রজনন করা বিদেশি প্রজাতির পাখি বিক্রি করি। দেশীয় বন্য পাখি (টিয়া, ময়না, মুনিয়া ইত্যাদি) কেনা-বেচা করি না। · এটি একটি ডেমো, কোনো তথ্য আসল নয়।</p>
+  </div>
+</footer>
+
+<script>
+const WA_NUMBER = "8801711000000";               // ডেমো নম্বর — আসল নম্বর এখানে বসবে
+const SITE_URL  = "https://palokbirdhouse.com/"; // ডেমো ডোমেইন
+const HERO = {src:"img/hero.webp", credit:"Giles Laurent, CC BY-SA 4.0"};
+
+/* ডেটা — আসল সাইটে এটা Google Sheet / JSON থেকে আসবে (PRD §৭) */
+const CATS = [
+  {id:"budgie",    name:"বাজরিগার"},
+  {id:"lovebird",  name:"লাভবার্ড"},
+  {id:"cockatiel", name:"ককাটিয়েল"},
+  {id:"finch",     name:"ফিঞ্চ ও মুনিয়া জাতীয়"},
+  {id:"conure",    name:"কনিউর"},
+  {id:"canary",    name:"ক্যানারি"},
+  {id:"dove",      name:"ঘুঘু ও কবুতর"},
+];
+const BIRDS = [
+ {code:"PL-101",name:"বাজরিগার জোড়া (নীল ও সবুজ)",cat:"budgie",latin:"Melopsittacus undulatus",age:"৪ মাস (তরুণ)",sex:"জোড়া (নর + মাদি)",price:1200,status:"available",featured:true,isNew:false,
+  photos:["budgie_2","budgie_4","budgie_5"],desc:"বাসায় হাতে বড় করা, মানুষ দেখলে ভয় পায় না। নতুনদের জন্য সবচেয়ে সহজ পাখি। কাউন-চিনা আর সবুজ শাক খেতে অভ্যস্ত।",food:"কাউন, চিনা, সবুজ শাক"},
+ {code:"PL-102",name:"বাজরিগার নর (সবুজ-হলুদ)",cat:"budgie",latin:"Melopsittacus undulatus",age:"৬ মাস",sex:"একক নর",price:550,status:"available",featured:false,isNew:true,
+  photos:["budgie_5","budgie_1"],desc:"উজ্জ্বল সবুজ-হলুদ রঙের চটপটে নর। খুব ডাকাডাকি করে, কথা শেখানোর চেষ্টা করা যায়।",food:"কাউন, চিনা, সবুজ শাক"},
+ {code:"PL-103",name:"ককাটিয়েল জোড়া (গ্রে ও পাইড)",cat:"cockatiel",latin:"Nymphicus hollandicus",age:"প্রাপ্তবয়স্ক",sex:"জোড়া (প্রমাণিত ব্রিডার)",price:5200,status:"available",featured:true,isNew:false,
+  photos:["cockatiel_1","cockatiel_2"],desc:"আগে দুবার বাচ্চা তুলেছে এমন জোড়া। শান্ত স্বভাবের, শিস দিতে পারে। ডিম পাড়ার বাক্সসহ নিতে পারবেন।",food:"সূর্যমুখী-মিক্স, কাউন, ফল"},
+ {code:"PL-104",name:"লুটিনো ককাটিয়েল (হাতপোষা)",cat:"cockatiel",latin:"Nymphicus hollandicus",age:"৩ মাস (পানি-শিশু)",sex:"জানা নেই",price:3200,status:"coming",featured:false,isNew:true,
+  photos:["cockatiel_3","cockatiel_2"],desc:"হাতে খাইয়ে বড় করা হলুদ লুটিনো। আঙুলে উঠে বসে। আগামী সপ্তাহে দেওয়ার মতো তৈরি হবে, আগাম বুকিং নেওয়া হচ্ছে।",food:"সফট ফুড থেকে দানায় যাচ্ছে"},
+ {code:"PL-105",name:"পিচফেস লাভবার্ড জোড়া",cat:"lovebird",latin:"Agapornis roseicollis",age:"প্রাপ্তবয়স্ক",sex:"জোড়া (নর + মাদি)",price:3400,status:"available",featured:true,isNew:false,
+  photos:["lovebird_3","lovebird_4","lovebird_2"],desc:"একসাথে বসে থাকা মিলমিশ জোড়া, ডিএনএ টেস্ট ছাড়াই আচরণে জোড়া নিশ্চিত। নিয়মিত ডিম দেয়।",food:"সূর্যমুখী-মিক্স, কাউন, সবুজ শাক"},
+ {code:"PL-106",name:"পিচফেস লাভবার্ড (সবুজ)",cat:"lovebird",latin:"Agapornis roseicollis",age:"৮ মাস",sex:"একক (লিঙ্গ জানা নেই)",price:1600,status:"sold",featured:false,isNew:false,
+  photos:["lovebird_0","lovebird_2"],desc:"গোলাপি মুখ আর নীল কোমরের সুস্থ তরুণ পাখি। এটি বিক্রি হয়ে গেছে, একই রকম আরেকটি চাইলে মেসেজ দিন।",food:"সূর্যমুখী-মিক্স, কাউন"},
+ {code:"PL-107",name:"ফিশার লাভবার্ড জোড়া",cat:"lovebird",latin:"Agapornis fischeri",age:"প্রাপ্তবয়স্ক",sex:"জোড়া",price:3900,status:"available",featured:false,isNew:false,
+  photos:["fischer_5","fischer_3","fischer_0"],desc:"কমলা মাথা আর সাদা চোখের বলয়, খুব প্রাণবন্ত। জোড়ায় রাখলে সবচেয়ে ভালো থাকে।",food:"সূর্যমুখী-মিক্স, কাউন, ফল"},
+ {code:"PL-108",name:"জাভা স্প্যারো জোড়া",cat:"finch",latin:"Padda oryzivora",age:"প্রাপ্তবয়স্ক",sex:"জোড়া",price:1800,status:"available",featured:false,isNew:true,
+  photos:["java_1","java_3","java_0"],desc:"ধূসর শরীর, গোলাপি ঠোঁট আর সাদা গাল। শান্ত, মিষ্টি সুরে ডাকে, ছোট খাঁচাতেও মানিয়ে নেয়।",food:"কাউন, চিনা, ধান"},
+ {code:"PL-109",name:"জেব্রা ফিঞ্চ জোড়া",cat:"finch",latin:"Taeniopygia castanotis",age:"৫ মাস",sex:"জোড়া (নর + মাদি)",price:650,status:"available",featured:false,isNew:false,
+  photos:["zebra_1","zebra_0"],desc:"সবচেয়ে কম খরচে শুরু করার পাখি। নরের গালে কমলা ছোপ। সহজে বাচ্চা দেয়।",food:"চিনা, কাউন, ডিমের খাবার"},
+ {code:"PL-110",name:"গোল্ডিয়ান ফিঞ্চ জোড়া",cat:"finch",latin:"Erythrura gouldiae",age:"প্রাপ্তবয়স্ক",sex:"জোড়া",price:7500,status:"available",featured:true,isNew:true,
+  photos:["gouldian_0"],desc:"বেগুনি বুক, হলুদ পেট, সবুজ পিঠ — দোকানের সবচেয়ে রঙিন ছোট পাখি। একটু উষ্ণ ও পরিষ্কার জায়গা পছন্দ করে।",food:"ফিঞ্চ মিক্স, ডিমের খাবার"},
+ {code:"PL-111",name:"হলুদ ক্যানারি (গায়ক নর)",cat:"canary",latin:"Serinus canaria domestica",age:"১ বছর",sex:"একক নর",price:null,status:"coming",featured:false,isNew:true,
+  photos:["canary_0","canary_1"],desc:"সকালে লম্বা সুরে গান করে। একা রাখলেও ভালো থাকে। দাম জানতে মেসেজ দিন।",food:"ক্যানারি মিক্স, সবুজ শাক"},
+ {code:"PL-112",name:"সান কনিউর",cat:"conure",latin:"Aratinga solstitialis",age:"৫ মাস (হাতপোষা)",sex:"জানা নেই",price:24000,status:"available",featured:true,isNew:false,
+  photos:["sunconure_0","sunconure_1"],desc:"আগুনের মতো কমলা-হলুদ রং। মানুষের সঙ্গ খুব পছন্দ করে, কাঁধে বসে থাকে। গলার আওয়াজ জোরালো — ফ্ল্যাটে রাখার আগে ভেবে নিন।",food:"প্যারট মিক্স, ফল, সবজি"},
+ {code:"PL-113",name:"গ্রিনচিক কনিউর",cat:"conure",latin:"Pyrrhura molinae",age:"৭ মাস",sex:"জানা নেই",price:15000,status:"sold",featured:false,isNew:false,
+  photos:["greencheek_0","greencheek_1"],desc:"ছোট আকারের কনিউর, তুলনামূলক কম চিৎকার করে। বিক্রি হয়ে গেছে — পরের ব্যাচের খোঁজ নিতে মেসেজ দিন।",food:"প্যারট মিক্স, ফল"},
+ {code:"PL-114",name:"ডায়মন্ড ডাভ জোড়া",cat:"dove",latin:"Geopelia cuneata",age:"প্রাপ্তবয়স্ক",sex:"জোড়া",price:2400,status:"available",featured:false,isNew:false,
+  photos:["diamonddove_0"],desc:"ডানায় সাদা বিন্দু আর লাল চোখের বলয়ওয়ালা ছোট শান্ত ঘুঘু। নরম স্বরে ডাকে, ফিঞ্চের সাথে এক খাঁচায় রাখা যায়।",food:"চিনা, কাউন, ছোট দানা"},
+ {code:"PL-115",name:"ফ্যানটেইল কবুতর জোড়া (সাদা)",cat:"dove",latin:"Columba livia domestica",age:"প্রাপ্তবয়স্ক",sex:"জোড়া",price:2000,status:"available",featured:false,isNew:false,
+  photos:["pigeon_0","pigeon_1"],desc:"পাখার মতো ছড়ানো লেজ, বুক ফুলিয়ে হাঁটে। ছাদের খোপে বা বড় খাঁচায় রাখা যায়।",food:"গম, ধান, কবুতর মিক্স"},
+];
+const HAVE = /*HAVE*/["budgie_1", "budgie_2", "budgie_4", "budgie_5", "canary_0", "canary_1", "cockatiel_1", "cockatiel_2", "cockatiel_3", "diamonddove_0", "fischer_0", "fischer_3", "fischer_5", "gouldian_0", "java_0", "java_1", "java_3", "lovebird_0", "lovebird_2", "lovebird_3", "lovebird_4", "pigeon_0", "pigeon_1", "sunconure_0", "sunconure_1", "zebra_0", "zebra_1"];
+for(let i=BIRDS.length-1;i>=0;i--){BIRDS[i].photos=BIRDS[i].photos.filter(k=>HAVE.includes(k)); if(!BIRDS[i].photos.length) BIRDS.splice(i,1)}
+const CREDITS = /*CREDITS*/[{"file": "Melopsittacus undulatus - Vogelpark Steinen 02.jpg", "artist": "H. Zell", "lic": "CC BY-SA 3.0", "page": "https://commons.wikimedia.org/wiki/File:Melopsittacus_undulatus_-_Vogelpark_Steinen_02.jpg"}, {"file": "Melopsittacus undulatus - Vogelpark Steinen 01.jpg", "artist": "H. Zell", "lic": "CC BY-SA 3.0", "page": "https://commons.wikimedia.org/wiki/File:Melopsittacus_undulatus_-_Vogelpark_Steinen_01.jpg"}, {"file": "Melopsittacus undulatus mex180102.jpg", "artist": "Carlos Valenzuela", "lic": "CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:Melopsittacus_undulatus_mex180102.jpg"}, {"file": "Melopsittacus undulatus - Vogelpark Steinen 03.jpg", "artist": "H. Zell", "lic": "CC BY-SA 3.0", "page": "https://commons.wikimedia.org/wiki/File:Melopsittacus_undulatus_-_Vogelpark_Steinen_03.jpg"}, {"file": "Serinus canaria gelb.JPG", "artist": "4028mdk09", "lic": "CC BY-SA 3.0", "page": "https://commons.wikimedia.org/wiki/File:Serinus_canaria_gelb.JPG"}, {"file": "Fife Fancy Canary with Left Leg Bandage.jpg", "artist": "Pear1020", "lic": "CC0", "page": "https://commons.wikimedia.org/wiki/File:Fife_Fancy_Canary_with_Left_Leg_Bandage.jpg"}, {"file": "Nymphicus hollandicus - Forst 01.jpg", "artist": "H. Zell", "lic": "CC BY-SA 3.0", "page": "https://commons.wikimedia.org/wiki/File:Nymphicus_hollandicus_-_Forst_01.jpg"}, {"file": "Cockatiel (Nymphicus hollandicus) perched in a tree.jpg", "artist": "Bidgee", "lic": "CC BY-SA 3.0", "page": "https://commons.wikimedia.org/wiki/File:Cockatiel_(Nymphicus_hollandicus)_perched_in_a_tree.jpg"}, {"file": "Nymphicus hollandicus Bronzefallow.jpg", "artist": "Raphael Cherfem", "lic": "CC BY 4.0", "page": "https://commons.wikimedia.org/wiki/File:Nymphicus_hollandicus_Bronzefallow.jpg"}, {"file": "Geopelia cuneata -Pilbara, Western Australia, Australia-8 (1).jpg", "artist": "Jim  Bendon from Karratha, Australia", "lic": "CC BY-SA 2.0", "page": "https://commons.wikimedia.org/wiki/File:Geopelia_cuneata_-Pilbara,_Western_Australia,_Australia-8_(1).jpg"}, {"file": "046 Fischer's lovebird in the Serengeti National Park Photo by Giles Laurent.jpg", "artist": "Giles Laurent", "lic": "CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:046_Fischer%27s_lovebird_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg"}, {"file": "Agapornis fischeri 104443076.jpg", "artist": "Donald Hampton", "lic": "CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:Agapornis_fischeri_104443076.jpg"}, {"file": "Agapornis fischeri -Ueno Zoo, Japan -three-8a-4c.jpg", "artist": "Agapornis_fischeri_-Ueno_Zoo,_Japan_-three-8a.jpg: Takashi Hososhima from Tokyo,", "lic": "CC BY-SA 2.0", "page": "https://commons.wikimedia.org/wiki/File:Agapornis_fischeri_-Ueno_Zoo,_Japan_-three-8a-4c.jpg"}, {"file": "Chloebia gouldiae - Tierpark Hagenbeck 01.jpg", "artist": "H. Zell", "lic": "CC BY-SA 3.0", "page": "https://commons.wikimedia.org/wiki/File:Chloebia_gouldiae_-_Tierpark_Hagenbeck_01.jpg"}, {"file": "Java sparrow (Padda oryzivora) at Taronga Zoo, March 2019.jpg", "artist": "Rachelle Haun", "lic": "CC BY 2.0", "page": "https://commons.wikimedia.org/wiki/File:Java_sparrow_(Padda_oryzivora)_at_Taronga_Zoo,_March_2019.jpg"}, {"file": "Padda oryzivora qtl1.jpg", "artist": "Quartl", "lic": "CC BY-SA 3.0", "page": "https://commons.wikimedia.org/wiki/File:Padda_oryzivora_qtl1.jpg"}, {"file": "Padda oryzivora -captive-8a.jpg", "artist": "Mike Atkins from Manchester, England", "lic": "CC BY 2.0", "page": "https://commons.wikimedia.org/wiki/File:Padda_oryzivora_-captive-8a.jpg"}, {"file": "Rosy-faced lovebird (Agapornis roseicollis roseicollis).jpg", "artist": "Charles J. Sharp", "lic": "CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:Rosy-faced_lovebird_(Agapornis_roseicollis_roseicollis).jpg"}, {"file": "Rosy-faced lovebird (Agapornis roseicollis roseicollis) 2.jpg", "artist": "Charles J. Sharp", "lic": "CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:Rosy-faced_lovebird_(Agapornis_roseicollis_roseicollis)_2.jpg"}, {"file": "087 Rosy-faced lovebird couple cuddling in Damaraland Photo by Giles Laurent.jpg", "artist": "Giles Laurent", "lic": "CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:087_Rosy-faced_lovebird_couple_cuddling_in_Damaraland_Photo_by_Giles_Laurent.jpg"}, {"file": "090 Rosy-faced lovebirds kissing in Otjozondjupa Region Photo by Giles Laurent.jpg", "artist": "Giles Laurent", "lic": "CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:090_Rosy-faced_lovebirds_kissing_in_Otjozondjupa_Region_Photo_by_Giles_Laurent.jpg"}, {"file": "Fantial Miniture pigeon white NPA National 2026 01 23.jpg", "artist": "JohnVerburg", "lic": "CC0", "page": "https://commons.wikimedia.org/wiki/File:Fantial_Miniture_pigeon_white_NPA_National_2026_01_23.jpg"}, {"file": "Fantail(white self).jpg", "artist": "jim gifford", "lic": "CC BY-SA 2.0", "page": "https://commons.wikimedia.org/wiki/File:Fantail(white_self).jpg"}, {"file": "Aratinga solstitialis - Loro Parque 01.jpg", "artist": "H. Zell", "lic": "CC BY-SA 3.0", "page": "https://commons.wikimedia.org/wiki/File:Aratinga_solstitialis_-_Loro_Parque_01.jpg"}, {"file": "Sun conure (Aratinga solstitialis).jpg", "artist": "RIDH-1", "lic": "CC BY 4.0", "page": "https://commons.wikimedia.org/wiki/File:Sun_conure_(Aratinga_solstitialis).jpg"}, {"file": "Australian Zebra Finch 0A2A3013.jpg", "artist": "JJ Harrison", "lic": "CC BY-SA 3.0", "page": "https://commons.wikimedia.org/wiki/File:Australian_Zebra_Finch_0A2A3013.jpg"}, {"file": "Taeniopygia-guttata.jpg", "artist": "Penkinvaltaaja", "lic": "CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:Taeniopygia-guttata.jpg"}];
+
+/* ---------- helpers ---------- */
+const BN="০১২৩৪৫৬৭৮৯";
+const bn = s => String(s).replace(/\d/g,d=>BN[d]);
+const taka = n => n==null ? null : "৳" + bn(n.toLocaleString("en-IN"));
+const esc = s => String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const img = k => `img/${k}.webp`;
+const STATUS = {available:"আছে", sold:"বিক্রি হয়ে গেছে", coming:"শীঘ্রই আসছে"};
+const catName = id => (CATS.find(c=>c.id===id)||{}).name||"";
+const slug = code => "bird-" + code.toLowerCase();
+const birdUrl = b => SITE_URL + "#" + slug(b.code);
+
+function waLink(b){
+  let t;
+  if(!b) t = "আসসালামু আলাইকুম, পালক বার্ড হাউসের ওয়েবসাইট থেকে মেসেজ দিচ্ছি। কিছু পাখির ব্যাপারে জানতে চাই।";
+  else if(b.status==="sold") t = `আসসালামু আলাইকুম, ${b.name} (${b.code}) বিক্রি হয়ে গেছে দেখলাম। এর মতো আর আছে কি? লিংক: ${birdUrl(b)}`;
+  else if(b.status==="coming") t = `আসসালামু আলাইকুম, ${b.name} (${b.code}) আগাম বুকিং দিতে চাই। কবে পাওয়া যাবে জানাবেন। লিংক: ${birdUrl(b)}`;
+  else t = `আসসালামু আলাইকুম, আমি ${b.name} (${b.code}) নিতে চাই। লিংক: ${birdUrl(b)}। দাম ও ডেলিভারি জানাবেন।`;
+  return `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(t)}`;
+}
+function waLabel(b){
+  if(!b) return "WhatsApp-এ মেসেজ দিন";
+  return b.status==="sold" ? "এর মতো আর আছে কি? জিজ্ঞেস করুন" : b.status==="coming" ? "WhatsApp-এ আগাম বুকিং দিন" : "WhatsApp-এ অর্ডার করুন";
+}
+// বাটন ক্লিক গণনা — আসল সাইটে Plausible/Umami ইভেন্ট যাবে
+function track(name, code){ try{ window.plausible && window.plausible(name,{props:{code}}) }catch(e){} }
+
+function fadeIns(root){
+  root.querySelectorAll("img[data-fade]").forEach(im=>{
+    const on=()=>im.classList.add("ok");
+    if(im.complete && im.naturalWidth) on(); else im.addEventListener("load",on,{once:true});
+  });
+}
+
+function card(b){
+  const big = b.featured;
+  const price = b.price==null ? `<span class="price ask">মেসেজে জানুন</span>` : `<span class="price num">${taka(b.price)}</span>`;
+  const alt2 = b.photos[1] ? `<img class="alt" data-fade loading="lazy" src="${img(b.photos[1])}" alt="" aria-hidden="true">` : "";
+  return `<a class="card ${big?"big":""} ${b.status==="sold"?"is-sold":""}" href="#${slug(b.code)}">
+    <div class="ph">
+      <span class="badge ${b.status}">${STATUS[b.status]}</span>
+      <img data-fade loading="lazy" src="${img(b.photos[0])}" alt="${esc(b.name)} — ${esc(catName(b.cat))}">
+      ${alt2}
+    </div>
+    <div>
+      <div class="meta"><h3>${esc(b.name)}</h3>${price}</div>
+      <div class="sub">${esc(b.sex)} · <span class="code">${b.code}</span></div>
+    </div>
+  </a>`;
+}
+
+/* ---------- views ---------- */
+function viewHome(){
+  const feat = BIRDS.filter(b=>b.status!=="sold").sort((a,b)=>(b.featured-a.featured)).slice(0,10);
+  // order so that big cards interleave
+  const fresh = BIRDS.filter(b=>b.isNew).slice(0,4);
+  const cats = CATS.filter(c=>BIRDS.some(b=>b.cat===c.id)).map(c=>{
+    const list = BIRDS.filter(b=>b.cat===c.id);
+    const avail = list.filter(b=>b.status==="available").length;
+    const cover = (list.find(b=>b.featured)||list[0]).photos[0];
+    return `<a class="cat" href="#shop" data-cat="${c.id}">
+      <div class="ph"><img loading="lazy" src="${img(cover)}" alt="${esc(c.name)}"></div>
+      <b>${esc(c.name)}</b><small>${avail ? bn(avail)+"টি পাওয়া যাচ্ছে" : "শীঘ্রই আসছে"}</small></a>`;
+  }).join("");
+  return `
+  <section class="hero" aria-label="পরিচিতি">
+    <img src="${HERO.src}" alt="ডালে বসা এক জোড়া রঙিন লাভবার্ড" fetchpriority="high">
+    <div class="scrim"></div>
+    <span class="credit-tag">ছবি: ${esc(HERO.credit)}</span>
+    <div class="copy"><div class="wrap">
+      <span class="kicker">মিরপুর, ঢাকা · ২০১৮ সাল থেকে</span>
+      <h1>রঙিন পালকের সঙ্গী, ঘরে নিয়ে যান</h1>
+      <p class="lede">প্রতিটি পাখির নিজের ছবি, বয়স আর দাম দেখে পছন্দ করুন। অর্ডার হবে সরাসরি WhatsApp-এ।</p>
+      <div class="ctas">
+        <a class="wa-btn" href="#shop">সব পাখি দেখুন</a>
+      </div>
+    </div></div>
+  </section>
+
+  <section class="block"><div class="wrap">
+    <div class="sec-head"><div><span class="eyebrow">এই সপ্তাহে দোকানে</span><h2>বাছাই করা পাখি</h2></div><a href="#shop">সব ${bn(BIRDS.length)}টি পাখি দেখুন →</a></div>
+    <div class="grid">${feat.map(card).join("")}</div>
+  </div></section>
+
+  <section class="block" style="padding-top:8px"><div class="wrap">
+    <div class="sec-head"><h2>ধরন অনুযায়ী খুঁজুন</h2></div>
+    <div class="cats">${cats}</div>
+  </div></section>
+
+  <section class="block band"><div class="wrap">
+    <div class="sec-head"><h2>কীভাবে অর্ডার করবেন</h2></div>
+    <ol class="steps">
+      <li><h3>পাখি পছন্দ করুন</h3><p>ছবি, বয়স, জোড়া না একক আর দাম দেখে নিন। প্রতিটি পাখির একটা কোড আছে, যেমন PL-105।</p></li>
+      <li><h3>WhatsApp-এ মেসেজ দিন</h3><p>সবুজ বাটনে চাপ দিলে পাখির নাম আর কোডসহ মেসেজ লেখা অবস্থায় খুলবে। শুধু পাঠিয়ে দিন।</p></li>
+      <li><h3>দাম ও ডেলিভারি ঠিক করুন</h3><p>আমরা উত্তর দিয়ে চাইলে ভিডিও কল করে পাখি দেখাই। ঢাকায় হাতে হাতে ডেলিভারি, অথবা দোকানে এসে নিয়ে যান।</p></li>
+    </ol>
+  </div></section>
+
+  <section class="block"><div class="wrap">
+    <div class="sec-head"><div><span class="eyebrow">নতুন এসেছে ও আসছে</span><h2>নতুন ব্যাচ</h2></div></div>
+    <div class="grid">${fresh.map(b=>card({...b,featured:false})).join("")}</div>
+  </div></section>
+
+  <section class="block" style="padding-top:0"><div class="wrap">
+    <div class="promise">
+      <div><b>নিজের খাঁচায় বড় করা</b><p>বেশিরভাগ পাখি আমাদের নিজেদের প্রজনন। কোথা থেকে এসেছে আমরা জানি।</p></div>
+      <div><b>দেখে নেওয়ার সুযোগ</b><p>দোকানে এসে বা ভিডিও কলে পাখি দেখে তারপর টাকা দিন।</p></div>
+      <div><b>বৈধ প্রজাতি</b><p>দেশীয় বন্য পাখি বিক্রি করি না। শুধু খাঁচায় জন্মানো বিদেশি প্রজাতি।</p></div>
+      <div><b>নেওয়ার পরও পরামর্শ</b><p>খাবার, খাঁচা বা অসুখ নিয়ে প্রশ্ন থাকলে WhatsApp-এ জিজ্ঞেস করুন।</p></div>
+    </div>
+  </div></section>`;
+}
+
+let shopState = {cat:"all", q:"", onlyAvail:false};
+function viewShop(){
+  const chips = [{id:"all",name:"সব"},...CATS.filter(c=>BIRDS.some(b=>b.cat===c.id))].map(c=>`<button class="chip" data-chip="${c.id}" aria-pressed="${shopState.cat===c.id}">${esc(c.name)}</button>`).join("");
+  return `
+  <div class="wrap pagehead"><h1>সব পাখি</h1><p>ছবিতে চাপ দিলে বড় ছবি, বয়স আর বিস্তারিত দেখবেন। দাম আলোচনা সাপেক্ষে সামান্য কমবেশি হতে পারে।</p></div>
+  <div class="toolbar"><div class="wrap">
+    <div class="row">
+      <label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="নাম বা কোড লিখুন, যেমন লাভবার্ড বা PL-105" value="${esc(shopState.q)}" aria-label="পাখি খুঁজুন"></label>
+      <label class="toggle"><input id="onlyAvail" type="checkbox" ${shopState.onlyAvail?"checked":""}> শুধু যেগুলো আছে</label>
+    </div>
+    <div class="chips" role="group" aria-label="ধরন">${chips}</div>
+  </div></div>
+  <div class="wrap"><p class="count num" id="count"></p><div class="grid" id="shopGrid"></div></div>`;
+}
+function renderShopGrid(){
+  const q = shopState.q.trim().toLowerCase();
+  const list = BIRDS.filter(b =>
+    (shopState.cat==="all"||b.cat===shopState.cat) &&
+    (!shopState.onlyAvail||b.status==="available") &&
+    (!q || [b.name,b.code,catName(b.cat),b.latin,b.desc].join(" ").toLowerCase().includes(q)));
+  // available first, then coming, then sold
+  const rank={available:0,coming:1,sold:2};
+  list.sort((a,b)=>rank[a.status]-rank[b.status]);
+  const g=document.getElementById("shopGrid");
+  g.innerHTML = list.length ? list.map(card).join("") : `<p class="empty" style="grid-column:1/-1">এই খোঁজে কোনো পাখি পাওয়া যায়নি। অন্য নাম লিখে দেখুন, অথবা WhatsApp-এ জিজ্ঞেস করুন।</p>`;
+  document.getElementById("count").textContent = bn(list.length) + "টি পাখি দেখানো হচ্ছে";
+  fadeIns(g);
+}
+function bindShop(){
+  document.getElementById("q").addEventListener("input",e=>{shopState.q=e.target.value;renderShopGrid()});
+  document.getElementById("onlyAvail").addEventListener("change",e=>{shopState.onlyAvail=e.target.checked;renderShopGrid()});
+  document.querySelectorAll("[data-chip]").forEach(b=>b.addEventListener("click",()=>{
+    shopState.cat=b.dataset.chip;
+    document.querySelectorAll("[data-chip]").forEach(x=>x.setAttribute("aria-pressed",x===b));
+    renderShopGrid();
+  }));
+  renderShopGrid();
+}
+
+function viewBird(b){
+  const slides = b.photos.map((p,i)=>`<figure><img data-fade ${i?'loading="lazy"':''} src="${img(p)}" alt="${esc(b.name)} — ছবি ${bn(i+1)}"></figure>`).join("");
+  const thumbs = b.photos.map((p,i)=>`<button data-go="${i}" aria-label="ছবি ${bn(i+1)}" aria-current="${i===0}"><img loading="lazy" src="${img(p)}" alt=""></button>`).join("");
+  const dots = b.photos.map((p,i)=>`<span class="${i?"":"on"}"></span>`).join("");
+  const similar = BIRDS.filter(x=>x.code!==b.code && x.cat===b.cat).concat(BIRDS.filter(x=>x.code!==b.code && x.cat!==b.cat && x.status==="available")).slice(0,4);
+  const price = b.price==null ? `<div class="pricebig">মেসেজে জানুন</div>` : `<div class="pricebig num">${taka(b.price)}<small>${b.sex.startsWith("জোড়া")?"জোড়া":"প্রতিটি"}</small></div>`;
+  return `
+  <div class="wrap">
+    <nav class="crumbs" aria-label="অবস্থান"><a href="#home">হোম</a> / <a href="#shop">সব পাখি</a> / ${esc(catName(b.cat))}</nav>
+    <div class="detail">
+      <div class="gallery">
+        <div class="slides" id="slides">${slides}</div>
+        <div class="dots" id="dots">${dots}</div>
+        <div class="thumbs">${thumbs}</div>
+      </div>
+      <div class="info">
+        <div>
+          <span class="code">কোড ${b.code}</span>
+          <h1>${esc(b.name)}</h1>
+          <p class="latin">${esc(b.latin)}</p>
+        </div>
+        <div class="status-line"><span class="badge ${b.status}">${STATUS[b.status]}</span>${b.status==="coming"?'<span class="note">আগাম বুকিং নেওয়া হচ্ছে</span>':""}</div>
+        ${price}
+        <p>${esc(b.desc)}</p>
+        <dl class="facts">
+          <dt>ধরন</dt><dd>${esc(catName(b.cat))}</dd>
+          <dt>বয়স</dt><dd>${esc(b.age)}</dd>
+          <dt>লিঙ্গ / জোড়া</dt><dd>${esc(b.sex)}</dd>
+          <dt>এখন যা খায়</dt><dd>${esc(b.food)}</dd>
+        </dl>
+        <a class="wa-btn" href="${waLink(b)}" target="_blank" rel="noopener" data-track="${b.code}">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa-ico"/></svg>${waLabel(b)}</a>
+        <div class="callrow">ফোনে কথা বলতে: <b class="num" style="color:var(--fg)">০১৭১১-০০০০০০</b><button class="copy" data-copy="01711000000">নম্বর কপি করুন</button></div>
+        <p class="note">ঢাকায় হাতে হাতে ডেলিভারি, ঢাকার বাইরে শর্তসাপেক্ষে। <a href="#delivery">ডেলিভারি ও ফেরতের নিয়ম পড়ুন</a></p>
+      </div>
+    </div>
+  </div>
+  <section class="block"><div class="wrap">
+    <div class="sec-head"><h2>এর মতো আরও পাখি</h2><a href="#shop">সব পাখি →</a></div>
+    <div class="grid">${similar.map(x=>card({...x,featured:false})).join("")}</div>
+  </div></section>`;
+}
+function bindBird(b){
+  const s=document.getElementById("slides"), dots=[...document.querySelectorAll("#dots span")], th=[...document.querySelectorAll("[data-go]")];
+  const sync=()=>{const i=Math.round(s.scrollLeft/s.clientWidth);dots.forEach((d,j)=>d.classList.toggle("on",i===j));th.forEach((t,j)=>t.setAttribute("aria-current",i===j))};
+  s.addEventListener("scroll",()=>requestAnimationFrame(sync),{passive:true});
+  th.forEach(t=>t.addEventListener("click",()=>s.scrollTo({left:s.clientWidth*+t.dataset.go,behavior:"smooth"})));
+}
+
+const FAQ = [
+ ["নতুনদের জন্য কোন পাখি সবচেয়ে সহজ?","বাজরিগার, জেব্রা ফিঞ্চ আর জাভা স্প্যারো। এরা খাবার নিয়ে খুঁতখুঁতে না, ছোট খাঁচায় মানিয়ে নেয়, দামও কম। প্রথমবার পাখি পুষলে এক জোড়া বাজরিগার দিয়ে শুরু করতে বলি।"],
+ ["জোড়া নেব নাকি একটা পাখি?","বেশিরভাগ ছোট পাখি দলে থাকতে পছন্দ করে, তাই জোড়া নেওয়াই ভালো। একা পাখি রাখলে তাকে প্রতিদিন সময় দিতে হবে। হাতপোষা ককাটিয়েল বা কনিউর একা রাখা যায়, যদি আপনি বাসায় বেশি সময় থাকেন।"],
+ ["খাঁচা কত বড় হওয়া দরকার?","এক জোড়া বাজরিগার বা ফিঞ্চের জন্য কমপক্ষে ২৪ × ১৮ × ১৮ ইঞ্চি। ককাটিয়েল বা কনিউরের জন্য এর চেয়ে বড়, যাতে পাখি ডানা মেলে এক দাঁড় থেকে আরেক দাঁড়ে উড়তে পারে। লম্বার চেয়ে চওড়া খাঁচা ভালো।"],
+ ["প্রতিদিন কী খাওয়াব?","বাজরিগার ও ফিঞ্চ: কাউন-চিনার মিক্স। লাভবার্ড, ককাটিয়েল ও কনিউর: সূর্যমুখী মেশানো প্যারট মিক্স। সপ্তাহে কয়েক দিন ধুয়ে নেওয়া সবুজ শাক, গাজর বা আপেলের টুকরো দিন। খাঁচায় সবসময় একটা কাটলবোন রাখুন।"],
+ ["কোন খাবার একদম দেওয়া যাবে না?","অ্যাভোকাডো, চকলেট, চা-কফি, লবণ বা তেল-মসলার খাবার, আর পেঁয়াজ-রসুন। মানুষের রান্না করা খাবার না দেওয়াই নিরাপদ।"],
+ ["পানি কতবার বদলাব?","প্রতিদিন অন্তত একবার, গরমে দুবার। পানির পাত্র সপ্তাহে দুবার ভালো করে ধুয়ে নিন। পানিতে দানা বা পায়খানা পড়লে সঙ্গে সঙ্গে বদলান।"],
+ ["নতুন পাখি বাসায় আনার পর কী করব?","প্রথম ৩-৪ দিন খাঁচা শান্ত জায়গায় রাখুন, বেশি হাত দেবেন না। আমরা যে খাবার দিতাম সেটাই চালু রাখুন। বাসায় আগে থেকে পাখি থাকলে নতুনটাকে অন্তত দুই সপ্তাহ আলাদা খাঁচায় রাখুন।"],
+ ["পাখি অসুস্থ কিনা বুঝব কীভাবে?","সারাদিন পালক ফুলিয়ে বসে থাকা, চোখ আধবোজা, খাবার কম খাওয়া, পাতলা বা রং বদলানো পায়খানা, নাক দিয়ে পানি পড়া — এগুলো দেখলে দেরি না করে পাখির ডাক্তারের কাছে নিন। আমাদের WhatsApp-এ ছবি বা ভিডিও পাঠালে পরামর্শ দেব।"],
+ ["গরমে কীভাবে যত্ন নেব?","খাঁচা সরাসরি রোদে রাখবেন না। বাতাস চলাচল করে এমন ছায়ায় রাখুন। দুপুরে একটা ছোট পাত্রে গোসলের পানি দিলে পাখি নিজেই গা ভেজাবে।"],
+ ["শীতে কী করব?","রাতে খাঁচার তিন দিক পাতলা কাপড়ে ঢেকে দিন, যাতে ঠান্ডা বাতাস না লাগে। খাঁচা জানালার কাছ থেকে সরিয়ে রাখুন। গোল্ডিয়ান ফিঞ্চের মতো নরম পাখির জন্য শীত বেশি পড়লে ছোট বাল্ব দিয়ে উষ্ণ রাখতে হয়।"],
+ ["ডিম পাড়ার বাক্স কখন দেব?","পাখি পুরো প্রাপ্তবয়স্ক হলে (বাজরিগার ১০-১২ মাস, লাভবার্ড ও ককাটিয়েল এক বছরের বেশি) তবেই বাক্স দিন। বছরে দু-তিনবারের বেশি বাচ্চা তুলতে দেবেন না, এতে মাদি পাখি দুর্বল হয়ে যায়।"],
+ ["নখ বা ঠোঁট বড় হয়ে গেলে?","খাঁচায় বিভিন্ন মোটা মাপের কাঠের দাঁড় আর কাটলবোন রাখলে সাধারণত নিজে থেকেই ঠিক থাকে। নখ বেশি বড় হলে দোকানে নিয়ে আসুন, আমরা বিনা খরচে কেটে দিই।"],
+];
+function viewCare(){
+  return `<div class="wrap pagehead"><span class="eyebrow">নতুন ও পুরোনো পালনকারীদের জন্য</span><h1>যত্ন ও পরামর্শ</h1><p>ক্রেতারা আমাদের সবচেয়ে বেশি যেসব প্রশ্ন করেন, তার ছোট উত্তর। পাখির বড় অসুখে অবশ্যই পশু-চিকিৎসকের পরামর্শ নিন।</p></div>
+  <section class="block" style="padding-top:20px"><div class="wrap"><div class="faq">
+  ${FAQ.map(([q,a],i)=>`<details ${i===0?"open":""}><summary>${esc(q)}</summary><div class="ans">${esc(a)}</div></details>`).join("")}
+  </div>
+  <p style="margin-top:28px">আপনার প্রশ্নের উত্তর এখানে নেই? <a href="${waLink()}" target="_blank" rel="noopener" style="color:var(--wa-text);font-weight:600">WhatsApp-এ জিজ্ঞেস করুন</a></p>
+  </div></section>`;
+}
+
+function viewDelivery(){
+  return `<div class="wrap pagehead"><h1>ডেলিভারি ও নিয়ম</h1><p>পাখি জীবন্ত প্রাণী, তাই আমরা তাড়াহুড়ো না করে নিরাপদে পৌঁছানোকে বেশি গুরুত্ব দিই।</p></div>
+  <section class="block" style="padding-top:12px"><div class="wrap prose">
+    <h2>কোথায় কীভাবে পৌঁছাই</h2>
+    <div class="table-wrap"><table class="rates">
+      <thead><tr><th>এলাকা</th><th>কীভাবে</th><th>চার্জ</th></tr></thead>
+      <tbody>
+        <tr><td>মিরপুর, পল্লবী, কাফরুল</td><td>আমাদের লোক হাতে হাতে</td><td>৳১০০</td></tr>
+        <tr><td>ঢাকা শহরের অন্য এলাকা</td><td>আমাদের লোক হাতে হাতে</td><td>৳১৫০–৳৩০০</td></tr>
+        <tr><td>গাজীপুর, নারায়ণগঞ্জ, সাভার</td><td>আলোচনা সাপেক্ষে হাতে হাতে</td><td>৳৪০০ থেকে</td></tr>
+        <tr><td>অন্য জেলা</td><td>বাস কাউন্টারে, আগে কথা বলে</td><td>দূরত্ব অনুযায়ী</td></tr>
+      </tbody></table></div>
+    <div class="callout">লাইভ পাখি আমরা সাধারণ কুরিয়ারে পাঠাই না। ঢাকার বাইরে শুধু সকালের বাসে কাউন্টার ডেলিভারি হয়, যাতে পাখি দিনের আলোয় পৌঁছায়।</div>
+    <h2>দাম পরিশোধ</h2>
+    <ul>
+      <li>দোকানে এসে নিলে: হাতে নগদ বা বিকাশ।</li>
+      <li>ঢাকায় ডেলিভারি: পাখি হাতে পেয়ে দেখে নিয়ে টাকা দিন। দামি পাখিতে (৳১০,০০০-এর বেশি) ২০% অগ্রিম বিকাশ বা নগদে।</li>
+      <li>ঢাকার বাইরে: ডেলিভারি চার্জসহ ৫০% অগ্রিম, বাকিটা পাখি পাওয়ার পর।</li>
+    </ul>
+    <h2>পাখি হাতে পাওয়ার সময়</h2>
+    <p>ডেলিভারির লোকের সামনেই পাখি দেখে নিন — নড়াচড়া, চোখ, পালক আর পা। কোনো সমস্যা মনে হলে তখনই জানান, পাখি ফেরত নিয়ে আসা হবে।</p>
+    <h2>ফেরত ও বদল</h2>
+    <p>পাখি নেওয়ার ৪৮ ঘণ্টার মধ্যে অসুস্থতার স্পষ্ট লক্ষণ দেখা দিলে ছবি বা ভিডিওসহ WhatsApp-এ জানান। আমরা দেখে পাখি বদলে দিই অথবা চিকিৎসার খরচে সাহায্য করি। ৪৮ ঘণ্টা পরে বা ভুল যত্নের কারণে (রোদে রাখা, ভুল খাবার) সমস্যা হলে বদল সম্ভব নয়।</p>
+    <p>জীবন্ত প্রাণীর স্বাস্থ্য নিয়ে কেউ শতভাগ নিশ্চয়তা দিতে পারে না। আমরা শুধু এটুকু কথা দিই: যে পাখিতে আগে থেকে সমস্যা আছে তা জেনে বিক্রি করি না।</p>
+    <h2>কোন পাখি বিক্রি করি না</h2>
+    <p>বাংলাদেশের বন্যপ্রাণী (সংরক্ষণ ও নিরাপত্তা) আইন অনুযায়ী দেশীয় বন্য পাখি ধরা ও বিক্রি নিষিদ্ধ। তাই টিয়া, ময়না, শালিক, মুনিয়া বা বনের ঘুঘু আমরা রাখি না। আমাদের সব পাখি খাঁচায় প্রজনন করা বিদেশি প্রজাতির।</p>
+  </div></section>`;
+}
+
+function viewAbout(){
+  return `<div class="wrap pagehead"><h1>আমাদের কথা</h1></div>
+  <section class="block" style="padding-top:16px"><div class="wrap two">
+    <div class="prose">
+      <p>২০১৮ সালে মিরপুরের এক বাসার ছাদে তিন জোড়া বাজরিগার দিয়ে পালকের শুরু। শখ থেকে বাচ্চা হতে থাকল, পাড়ার লোকজন চাইতে শুরু করল, আর সেখান থেকেই ছোট একটা দোকান।</p>
+      <p>এখন আমাদের খাঁচায় বাজরিগার, লাভবার্ড, ককাটিয়েল, ফিঞ্চ আর কনিউর মিলিয়ে চল্লিশটির বেশি প্রজনন জোড়া আছে। বেশিরভাগ পাখি এখানেই জন্মানো, তাই কোন পাখির বয়স কত, কী খায়, কেমন স্বভাব — সব আমরা জানি এবং খোলাখুলি বলি।</p>
+      <p>দোকানে এসে পাখি দেখতে চাইলে আগে একটা মেসেজ দিয়ে আসুন, যাতে আমরা উপস্থিত থাকি।</p>
+      <h2>যোগাযোগ</h2>
+      <div class="contact-list">
+        <div><span>WhatsApp ও ফোন</span><b class="num">০১৭১১-০০০০০০</b><button class="copy" data-copy="01711000000">কপি করুন</button></div>
+        <div><span>ঠিকানা</span><b>বাড়ি ১২, রোড ৪, মিরপুর-২, ঢাকা ১২১৬</b></div>
+        <div><span>খোলার সময়</span><b>শনি–বৃহস্পতি, বিকেল ৪টা–রাত ৯টা</b></div>
+        <div><span>Facebook</span><b>facebook.com/palokbirdhouse</b></div>
+      </div>
+      <p style="margin-top:22px"><a class="wa-btn" href="${waLink()}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa-ico"/></svg>WhatsApp-এ মেসেজ দিন</a></p>
+    </div>
+    <div>
+      <div class="mapcard"><img loading="lazy" src="${img("cockatiel_1")}" alt="দোকানের খাঁচায় দাঁড়ে বসা তিনটি ককাটিয়েল"></div>
+      <p class="note" style="margin-top:10px">আসল সাইটে এখানে দোকানের ছবি আর Google Maps-এর লিংক থাকবে। <a href="https://maps.google.com/?q=Mirpur+2+Dhaka" target="_blank" rel="noopener">ম্যাপে মিরপুর-২ দেখুন</a></p>
+    </div>
+  </div></section>`;
+}
+
+function viewCredits(){
+  return `<div class="wrap pagehead"><h1>ছবির কৃতিত্ব</h1><p>এই ডেমোর সব ছবি Wikimedia Commons থেকে মুক্ত লাইসেন্সে নেওয়া। আসল সাইটে থাকবে দোকানের নিজের তোলা ছবি।</p></div>
+  <section class="block" style="padding-top:12px"><div class="wrap"><ul class="credits">
+  ${CREDITS.map(c=>`<li>${esc(c.file)} — ${esc(c.artist)}, ${esc(c.lic)} · <a href="${esc(c.page)}" target="_blank" rel="noopener">উৎস</a></li>`).join("")}
+  </ul></div></section>`;
+}
+
+/* ---------- router ---------- */
+const app=document.getElementById("app"), waF=document.getElementById("waFloat"), waFT=document.getElementById("waFloatText");
+function route(){
+  const h=(location.hash||"#home").slice(1);
+  let html, after=null, nav=h, bird=null, title="পালক বার্ড হাউস";
+  if(h==="shop"){html=viewShop();after=bindShop;title="সব পাখি · পালক"}
+  else if(h.startsWith("bird-")){
+    bird=BIRDS.find(b=>slug(b.code)===h);
+    if(bird){html=viewBird(bird);after=()=>bindBird(bird);nav="shop";title=bird.name+" · পালক"}
+  }
+  else if(h==="care"){html=viewCare();title="যত্ন ও পরামর্শ · পালক"}
+  else if(h==="delivery"){html=viewDelivery();title="ডেলিভারি ও নিয়ম · পালক"}
+  else if(h==="about"){html=viewAbout();title="আমাদের কথা · পালক"}
+  else if(h==="credits"){html=viewCredits()}
+  if(!html){html=viewHome();nav="home"}
+  app.innerHTML=html;
+  after&&after();
+  fadeIns(app);
+  document.querySelectorAll("[data-nav]").forEach(a=>a.dataset.nav===nav?a.setAttribute("aria-current","page"):a.removeAttribute("aria-current"));
+  waF.href=waLink(bird); waFT.textContent = bird ? waLabel(bird) : "WhatsApp-এ মেসেজ দিন";
+  waF.dataset.track = bird ? bird.code : "general";
+  document.title = title;
+  window.scrollTo(0,0);
+}
+document.addEventListener("click",e=>{
+  const c=e.target.closest("[data-cat]"); if(c){shopState={cat:c.dataset.cat,q:"",onlyAvail:false}}
+  const cp=e.target.closest("[data-copy]");
+  if(cp){e.preventDefault();const t=cp.dataset.copy,old=cp.textContent;
+    (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>{cp.textContent="কপি হয়েছে"},()=>{cp.textContent=t}).finally(()=>setTimeout(()=>cp.textContent=old,1800))}
+  const w=e.target.closest(".wa-btn[href^='https://wa.me']"); if(w) track("WhatsApp click", w.dataset.track||"");
+});
+function setHH(){document.documentElement.style.setProperty("--hh",document.getElementById("top").offsetHeight+"px")}
+addEventListener("resize",setHH); setHH();
+addEventListener("hashchange",route); route();
+</script>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="wa-ico" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1.1 2.7.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></symbol></svg>
+
+</body>
+</html>
+
+</body></html>
